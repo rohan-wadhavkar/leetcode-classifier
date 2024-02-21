@@ -1,0 +1,8 @@
+|   ID | Problem Name                   | Difficulty   | Main Idea                                                                                 | Solution                                         | Similar problems   |
+|-----:|:-------------------------------|:-------------|:------------------------------------------------------------------------------------------|:-------------------------------------------------|:-------------------|
+|  169 | Majority Element               | Easy         | Hash table                                                                                | [PySolution](./leetcode_python_solutions/169.py) |                    |
+|    1 | Two Sum                        | Easy         | Iterate through the array and check if target - nums[i] is in the hash map.               | [PySolution](./leetcode_python_solutions/1.py)   |                    |
+|  217 | Contains Duplicate             | Easy         | Hash set                                                                                  | [PySolution](./leetcode_python_solutions/217.py) |                    |
+|  594 | Longest Harmonious Subsequence | Easy         | Iterate the array and do max(ans, count[num] + count[num+1]).                             | [PySolution](./leetcode_python_solutions/594.py) |                    |
+|  128 | Longest Consecutive Sequence   | Hard/Medium  | Convert array to hash set. Iterate the array and check if the next element is in the set. | [PySolution](./leetcode_python_solutions/128.py) |                    |
+|  560 | Subarray Sum Equals K          | Medium       | Use cumulative sum and the two sum problem (1) idea.                                      | [PySolution](./leetcode_python_solutions/560.py) |                    |

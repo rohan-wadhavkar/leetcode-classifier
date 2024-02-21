@@ -1,0 +1,5 @@
+|   ID | Problem Name                    | Difficulty   | Main Idea                                                              | Solution                                         | Similar problems   |
+|-----:|:--------------------------------|:-------------|:-----------------------------------------------------------------------|:-------------------------------------------------|:-------------------|
+|  136 | Single Number                   | Easy         | XOR                                                                    | [PySolution](./leetcode_python_solutions/136.py) |                    |
+|  318 | Maximum Product of Word Lengths | Medium       | Use a mask/filter to indicate which letter has appeared for each word. | [PySolution](./leetcode_python_solutions/318.py) | 268, 260           |
+|  338 | Counting Bits                   | Medium       | DP with dp[i] = dp[i&(i-1)] + 1.                                       | [PySolution](./leetcode_python_solutions/338.py) |                    |

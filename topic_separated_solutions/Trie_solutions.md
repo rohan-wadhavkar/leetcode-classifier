@@ -1,0 +1,3 @@
+|   ID | Problem Name                 | Difficulty   | Main Idea                                                                                                 | Solution                                         | Similar problems        |
+|-----:|:-----------------------------|:-------------|:----------------------------------------------------------------------------------------------------------|:-------------------------------------------------|:------------------------|
+|  208 | Implement Trie (Prefix Tree) | Medium       | Defining a TrieNode class whose children is a defaultdict(TrieNode) type variable will facilitate coding. | [PySolution](./leetcode_python_solutions/208.py) | 677, 648, 676, 720, 211 |
