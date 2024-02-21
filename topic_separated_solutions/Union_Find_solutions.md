@@ -1,0 +1,3 @@
+|   ID | Problem Name         | Difficulty   | Main Idea   | Solution                                         | Similar problems    |
+|-----:|:---------------------|:-------------|:------------|:-------------------------------------------------|:--------------------|
+|  684 | Redundant Connection | Medium       |             | [PySolution](./leetcode_python_solutions/684.py) | 1319, 990, 721, 685 |

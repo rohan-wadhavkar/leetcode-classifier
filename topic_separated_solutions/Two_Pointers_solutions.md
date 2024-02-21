@@ -1,0 +1,13 @@
+|   ID | Problem Name                                | Difficulty   | Main Idea                                                          | Solution                                         | Similar problems   |
+|-----:|:--------------------------------------------|:-------------|:-------------------------------------------------------------------|:-------------------------------------------------|:-------------------|
+|  167 | Two Sum II - Input array is sorted          | Easy         | Head and tail pointers move toward the middle.                     | [PySolution](./leetcode_python_solutions/167.py) | 15, 16             |
+|  633 | Sum of Square Numbers                       | Easy         | Head and tail (square root) pointers move toward the middle.       | [PySolution](./leetcode_python_solutions/633.py) |                    |
+|  345 | Reverse Vowels of a String                  | Easy         | Head and tail pointers move toward the middle.                     | [PySolution](./leetcode_python_solutions/345.py) |                    |
+|  917 | Reverse Only Letters                        | Easy         | Head and tail pointers move toward the middle.                     | [PySolution](./leetcode_python_solutions/917.py) |                    |
+|  125 | Valid Palindrome                            | Easy         | Head and tail pointers move toward the middle.                     | [PySolution](./leetcode_python_solutions/125.py) | 680                |
+|   88 | Merge Sorted Array                          | Easy         | Two pointers initialized at the ends.                              | [PySolution](./leetcode_python_solutions/88.py)  |                    |
+|  977 | Squares of a Sorted Array                   | Easy         | Head and tail pointer moves based on certain condition.            | [PySolution](./leetcode_python_solutions/977.py) |                    |
+|  925 | Long Pressed Name                           | Easy         | Two pointers, one moves based on certain condition.                | [PySolution](./leetcode_python_solutions/925.py) | 56, 986            |
+|  141 | Linked List Cycle                           | Medium       | Slow and fast pointers                                             | [PySolution](./leetcode_python_solutions/141.py) | 142                |
+|  524 | Longest Word in Dictionary through Deleting | Medium       | Use two pointers to check if one string is a substring of another. | [PySolution](./leetcode_python_solutions/524.py) |                    |
+|   11 | Container With Most Water                   | Medium       | Head and tail pointers move toward the middle.                     | [PySolution](./leetcode_python_solutions/11.py)  | 42                 |

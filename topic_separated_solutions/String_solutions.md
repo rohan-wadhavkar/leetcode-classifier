@@ -1,0 +1,9 @@
+|   ID | Problem Name                                   | Difficulty   | Main Idea                                 | Solution                                         | Similar problems   |
+|-----:|:-----------------------------------------------|:-------------|:------------------------------------------|:-------------------------------------------------|:-------------------|
+|  242 | Valid Anagram                                  | Easy         | Hash table                                | [PySolution](./leetcode_python_solutions/242.py) | 438, 205           |
+|  409 | Longest Palindrome                             | Easy         | Hash table                                | [PySolution](./leetcode_python_solutions/409.py) |                    |
+|    9 | Palindrome Number                              | Easy         | Convert to string or reverse a number.    | [PySolution](./leetcode_python_solutions/9.py)   |                    |
+|    3 | Longest Substring Without Repeating Characters | Medium       | Hash set                                  | [PySolution](./leetcode_python_solutions/3.py)   |                    |
+|  647 | Palindromic Substrings                         | Medium       | Expand string centered at each letter     | [PySolution](./leetcode_python_solutions/647.py) | 5                  |
+|  796 | Rotate String                                  | Easy         | A naive solution is check if B in A+A.    | [PySolution](./leetcode_python_solutions/796.py) |                    |
+|  151 | Reverse Words in a String                      | Medium       | Reverse each word and reverse the string. | [PySolution](./leetcode_python_solutions/151.py) |                    |

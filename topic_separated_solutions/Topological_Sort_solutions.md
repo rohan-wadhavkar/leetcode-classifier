@@ -1,0 +1,3 @@
+|   ID | Problem Name    | Difficulty   | Main Idea                                                            | Solution                                         | Similar problems   |
+|-----:|:----------------|:-------------|:---------------------------------------------------------------------|:-------------------------------------------------|:-------------------|
+|  207 | Course Schedule | Medium       | Build graph and in-degree/out-degree list, then do topological sort. | [PySolution](./leetcode_python_solutions/207.py) | 210, 802           |
