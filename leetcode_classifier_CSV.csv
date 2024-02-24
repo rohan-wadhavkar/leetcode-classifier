@@ -1,0 +1,126 @@
+ID,Problem Name,Difficulty,Topic,Main Idea,Solution,Similar problems
+206,Reverse Linked List,Easy,Linked List,Iteratively is straightforward but recursively is a little bit tricky.,,
+21,Merge Two Sorted Lists,Easy,Linked List,Recursion make solution much cleaner for Problem 21. Use heap for Problem 23.,,23
+160,Intersection of Two Linked Lists,Easy,Linked List,Connect the end of a list to the head of the other list.,,
+19,Remove Nth Node From End of List,Medium,Linked List,Use two pointers and let one move N times first.,,
+24,Swap Nodes in Pairs,Medium,Linked List,Use recursion and divide & conquer.,,
+2,Add Two Numbers,Medium,Linked List,"Iterate, add number and make new linked list.",,445
+725,Split Linked List in Parts,Medium,Linked List,"Find length n, and use n//k and n%k to determine the size for each part.",,
+328,Odd Even Linked List,Medium,Linked List,"Use odd and even pointers, and a node to save the head of the even list.",,
+148,Sort List,Medium,Linked List,Slow and fast pointers + merge sort,,
+234,Palindrome Linked List,Medium,Linked List,Use slow and fast pointers to cut it into halves. Reverse the second half and compare with the first half.,,
+167,Two Sum II - Input array is sorted,Easy,Two Pointers,Head and tail pointers move toward the middle.,,"15, 16"
+633,Sum of Square Numbers,Easy,Two Pointers,Head and tail (square root) pointers move toward the middle.,,
+345,Reverse Vowels of a String,Easy,Two Pointers,Head and tail pointers move toward the middle.,,
+917,Reverse Only Letters,Easy,Two Pointers,Head and tail pointers move toward the middle.,,
+125,Valid Palindrome,Easy,Two Pointers,Head and tail pointers move toward the middle.,,680
+88,Merge Sorted Array,Easy,Two Pointers,Two pointers initialized at the ends.,,
+977,Squares of a Sorted Array,Easy,Two Pointers,Head and tail pointer moves based on certain condition.,,
+925,Long Pressed Name,Easy,Two Pointers,"Two pointers, one moves based on certain condition.",,"56, 986"
+141,Linked List Cycle,Medium,Two Pointers,Slow and fast pointers,,142
+524,Longest Word in Dictionary through Deleting,Medium,Two Pointers,Use two pointers to check if one string is a substring of another.,,
+11,Container With Most Water,Medium,Two Pointers,Head and tail pointers move toward the middle.,,42
+69,Sqrt(x),Easy,Binary Search,,,
+35,Search Insert Position,Easy,Binary Search,bisect.bisect_left(),,704
+278,First Bad Version,Easy,Binary Search,,,981
+744,Find Smallest Letter Greater Than Target,Easy,Binary Search,Be careful about the 'wrap around' constraint and duplicates. Use bisect.bisect() function.,,
+875,Koko Eating Bananas,Medium,Binary Search,Search by checking validity.,,1011
+74,Search a 2D Matrix,Medium,Binary Search,Search row and then search column or treat 2D as 1D array.,,
+34,Find First and Last Position of Element in Sorted Array,Medium,Binary Search,Use both bisect.bisect_left() and bisect.bisect().,,
+33,Search in Rotated Sorted Array,Medium,Binary Search,left +=1 and right -= 1 if nums[left]==nums[mid]==nums[right].,,"81, 153, 154"
+540,Single Element in a Sorted Array,Medium,Binary Search,"This problem is tricky. If mid is even and nums[mid] == nums[mid+1], then left = mid+2. If mid is odd, then mid -= 1 and check condition.",,
+378,Kth Smallest Element in a Sorted Matrix,Medium,Binary Search,"Nested binary searches. Outer one search for the target, and inner one is used to calculate how many elements are less than or equal to the target candidate in each row. Another idea is to use min heap.",,
+719,Find K-th Smallest Pair Distance,Hard,Binary Search,"Sort array first, and then search by checking validity.",,
+4,Median of Two Sorted Arrays,Hard,Binary Search,Binary search using the shorter list based on condition nums_short[mid1] <? nums_long[mid2-1].,,
+700,Search in a Binary Search Tree,Easy,Binary Search Tree,Recursion and search in half of the subtree each time.,,701
+669,Trim a Binary Search Tree,Easy,Binary Search Tree,"Recursion, and check current node value with lower and upper bounds",,
+653,Two Sum IV - Input is a BST,Easy,Binary Search Tree,"Use inorder to get a sorted array, and use two pointers.",,
+235,Lowest Common Ancestor of a Binary Search Tree,Easy,Binary Search Tree,"Recursion, and check current node value with the values of the two given nodes",,236
+98,Validate Binary Search Tree,Medium,Binary Search Tree,Check value with lower and upper bounds for each node. Another way is to leverage inorder traversal.,,530
+230,Kth Smallest Element in a BST,Medium,Binary Search Tree,Inorder traversal,,
+108,Convert Sorted Array to Binary Search Tree,Easy,Binary Search Tree,Divide array by half and use recursion.,,109
+501,Find Mode in Binary Search Tree,Easy,Binary Search Tree,"Be careful to the BST definition, and use inorder traversal",,
+450,Delete Node in a BST,Medium,Binary Search Tree,"The deleted node could have no child, 1 child, and 2 children (which is the most tricky part)",,
+1008,Construct Binary Search Tree from Preorder Traversal,Medium,Binary Search Tree,"Use recursion and for each node, update the lower and upper values for its children.",,
+99,Recover Binary Search Tree,Hard,Binary Search Tree,Inorder traversal to find the two nodes and swap them,,
+155,Min Stack,Easy,Stack and Queue,"Push a tuple (x, minimum) into stack.",,
+232,Implement Queue using Stacks,Easy,Stack and Queue,Be careful about the amortized time complexity of each operation. Use two stacks.,,
+1047,Remove All Adjacent Duplicates In String,Easy,Stack and Queue,Use stack.,,1209
+20,Valid Parentheses,Easy,Stack and Queue,Be careful about the type of parentheses. Maybe use a dict to simplify code.,,"921, 1249"
+739,Daily Temperatures,Medium,Stack and Queue,"Iterate through array, and pop util current temp smaller than or equal to temp at the top of the stack. Otherwise, push.",,402
+503,Next Greater Element II,Medium,Stack and Queue,"Iterate trough the concatenated array, e.g., given a list nums, iterate through nums+nums.",,496
+581,Shortest Unsorted Continuous Subarray,Medium,Stack and Queue,Use monotone stack.,,
+239,Sliding Window Maximum,Hard,Stack and Queue,Use monotone queue.,,1438
+169,Majority Element,Easy,Hash table and set,Hash table,,
+1,Two Sum,Easy,Hash table and set,Iterate through the array and check if target - nums[i] is in the hash map.,,
+217,Contains Duplicate,Easy,Hash table and set,Hash set,,
+594,Longest Harmonious Subsequence,Easy,Hash table and set,"Iterate the array and do max(ans, count[num] + count[num+1]).",,
+128,Longest Consecutive Sequence,Hard/Medium,Hash table and set,Convert array to hash set. Iterate the array and check if the next element is in the set.,,
+560,Subarray Sum Equals K,Medium,Hash table and set,Use cumulative sum and the two sum problem (1) idea.,,
+104,Maximum Depth of Binary Tree,Easy,Tree,Simple recursion.,,"110, 111, 112, 226, 617, 101, 404, 814, 1325"
+508,Most Frequent Subtree Sum,Medium,Tree,"Use a hash table to find all path sums, and then find answer from the hash table.",,
+437,Path Sum III,Easy/Medium,Tree,"For Problem 437, use hash_table + DFS to achieve linear time complexity, similar to two sum problem. Check out similar problem 560.",,"113, 129, 257"
+124,Binary Tree Maximum Path Sum,Hard/Medium,Tree,"Find left sum and right sum, and use both of them to calculate the sum with the current node as the root, and return only one of them.",,543
+572,Subtree of Another Tree,Easy/Medium,Tree,"Recursively check if t is the same tree with a tree rooted at the current node, or if t is a subtree rooted at current node's left or right child. Problem 687 can have linear time complexity by calculating the longest path by using left and right paths and only returning the max of left and right paths.",,687
+102,Binary Tree Level Order Traversal,Medium,Tree,Level-order traversal. Use BFS or defaultdict[list] to add node into corresponding level.,,"637, 513, 429, 1302"
+144,Binary Tree Preorder Traversal,Medium,Tree,"Recursively is trivial, but iteratively is very complicated. IMO, iteratively in-order traversal is the hardest.",,"589, 145, 590, 94"
+297,Serialize and Deserialize Binary Tree,Hard,Tree,"In the binary tree problem, we need to have ""null"" indicator to represent null node in the serialized string, while BST does not. BST problem uses pre-order traversal to serialize and deserialize by recursively building trees by checking lower and upper bounds for subtrees.",,"449, 106, 105"
+968,Binary Tree Cameras,Hard,Tree,Bottom up. DFS + greedy.,,979
+912,Sort an Array,Medium,Divide and Conquer,"Merge/quick sort, quick select",,"215, 148"
+241,Different Ways to Add Parentheses,Medium,Divide and Conquer,"Divide the string into two parts when encountering an operator, and recurse on each part and combine results.",,
+95,Unique Binary Search Trees II,Medium,Divide and Conquer,"Iterate through the possible values (""array""), and use the current as root and pivot, and divide the ""array"" into two parts, and find all possible solutions using the recursion results obtained by using the aforementioned two parts.",,
+315,Count of Smaller Numbers After Self,Hard,Divide and Conquer,Merge sort. The key is gradually updating the answer in the merge step.,,
+997,Find the Town Judge,Easy,Graph,Use both in-degrees and out-degrees.,,
+133,Clone Graph,Medium,Graph,Use hash table and DFS. The hash table also serves as the visited.,,138
+200,Number of Islands,Medium,Graph,"It is a connected components problem, use DFS. Given grid might be able to be used as visited.",,"547, 695, 733, 841, 827, 1202, 130, 417"
+1162,As Far from Land as Possible,Medium,Graph,"It is a shortest/longest path problem, use BFS.",,"433, 863, 1129, 1091, 279, 127, 399, 542, 934"
+785,Is Graph Bipartite?,Medium,Graph,Graph coloring,,"886, 1042"
+455,Assign Cookies,Easy,Greedy Algorithm,Have kids and you will know :joy:,,
+605,Can Place Flowers,Easy,Greedy Algorithm,"Pad each side of flowerbed by 0, and iteratively check if we can place flower by flowerbed[i-1] == flowerbed[i] == flowerbed[i+1] == 0.",,
+121,Best Time to Buy and Sell Stock,Easy,Greedy Algorithm,Keep track of the min price. You might have solved the problem without realizing it is a greedy algorithm problem. Greedy algorithm allows you to follow your instinct.,,122
+53,Maximum Subarray,Easy/Medium,Greedy Algorithm,"Repeatedly check current sum cur_sum = max(cur_sum + num, num). There is a blur boundary between greedy algorithm and DP for this problem.",,152
+435,Non-overlapping Intervals,Medium,Greedy Algorithm,Sort the intervals by the end point of each interval.,,452
+763,Partition Labels,Medium,Greedy Algorithm,Use a hash table to keep track of the last time (largest index) a letter appeared.,,
+406,Queue Reconstruction by Height,Medium,Greedy Algorithm,"Sort the list by height h in descending order and number of people k in ascending order. Construct a queue queue by iteratively queue.insert(k, h) for each pair in the sorted list.",,
+17,Letter Combinations of a Phone Number,Medium,Backtracking,Combinations,,"77, 39, 40, 216"
+46,Permutations,Medium,Backtracking,Permutations,,"47, 784, 996"
+78,Subsets,Medium,Backtracking,Subsets,,90
+79,Word Search,Medium,Backtracking,DFS for problem 79 and DFS + Trie for Problem 212.,,212
+22,Generate Parentheses,Medium,Backtracking,"Add ( whenever the number of ( is smaller than n, and add ) whenever the number of ) is smaller than the number of open parentheses.",,301
+131,Palindrome Partitioning,Medium,Backtracking,Partition,,"93, 698, 842, 282"
+37,Sudoku Solver,Hard,Backtracking,,,51
+70,Climbing Stairs,Easy,Dynamic Programming,Simple DP,,"746, 1137"
+198,House Robber,Easy,Dynamic Programming,"For Problem 213, try twice, one without the first house and one without the last house. Then find the maximum of them. One way to solve Problem 740 is to convert it into a house robber problem.",,"213, 337, 740"
+1218,Longest Arithmetic Subsequence of Given Difference,Medium,Dynamic Programming,"For Problem 1218, use Hash table + DP",,"413, 300, 646, 1143"
+416,Partition Equal Subset Sum,Medium,Dynamic Programming,Knapsack problem.,,"494, 474, 322, 518, 139, 377"
+62,Unique Paths,Medium,Dynamic Programming,DP in 2-dimensional space. Deal with the boundaries first for Problems 62-64.,,"63, 64, 120, 931"
+85,Maximal Rectangle,Hard/Medium,Dynamic Programming,Leverage the solution to Problem 84 using stack for Problems 85 and 221.,,"221, 1277"
+309,Best Time to Buy and Sell Stock with Cooldown,Medium/Hard,Dynamic Programming,"Multi-state (rest, sold, hold) DP",,801
+242,Valid Anagram,Easy,String,Hash table,,"438, 205"
+409,Longest Palindrome,Easy,String,Hash table,,
+9,Palindrome Number,Easy,String,Convert to string or reverse a number.,,
+3,Longest Substring Without Repeating Characters,Medium,String,Hash set,,
+647,Palindromic Substrings,Medium,String,Expand string centered at each letter,,5
+796,Rotate String,Easy,String,A naive solution is check if B in A+A.,,
+151,Reverse Words in a String,Medium,String,Reverse each word and reverse the string.,,
+566,Reshape the Matrix,Easy,Array,"Have a counter cnt, and the row index will be cnt//c and the column index will be cnt%c.",,
+645,Set Mismatch,Easy,Array,Hash table,,
+697,Degree of an Array,Easy/Medium,Array,Hash table.,,
+422,Find All Duplicates in an Array,Medium,Array,"Leverage the input list, and use negation.",,
+565,Array Nesting,Medium,Array,Use input as visited array.,,
+769,Max Chunks To Make Sorted,Medium,Array,"Iterate through array. If current max is smaller than or equal to current index, the the number of chunks increases by 1.",,
+462,Minimum Moves to Equal Array Elements II,Medium,Array,Quick select algorithm.,,215
+287,Find the Duplicate Number,Medium,Array,Slow and fast pointers + cycle detection.,,
+204,Count Primes,Easy,Math,Sieve of Eratosthenes,,
+504,Base 7,Easy,Math,Repeatedly use digit = n%base and n = n//base where integer base is the target base.,,"405, 168"
+67,Add Binary,Easy,Math,,,415
+367,Valid Perfect Square,Easy,Math,Binary search with time complexity O(log(n)) or 1+3+...+(2n-1) = n*n with time complexity O(sqrt(n)).,,
+326,Power of Three,Easy,Math,,,342
+628,Maximum Product of Three Numbers,easy,Math,"The max product is max(max1*max2*max3, max1*min1*min2)).",,
+238,Product of Array Except Self,Medium,Math,Leverage the output array to have O(1) space and do cummulative product from left to right and right to left.,,
+136,Single Number,Easy,Bit Manipulation,XOR,,
+318,Maximum Product of Word Lengths,Medium,Bit Manipulation,Use a mask/filter to indicate which letter has appeared for each word.,,"268, 260"
+338,Counting Bits,Medium,Bit Manipulation,DP with dp[i] = dp[i&(i-1)] + 1.,,
+208,Implement Trie (Prefix Tree),Medium,Trie,Defining a TrieNode class whose children is a defaultdict(TrieNode) type variable will facilitate coding.,,"677, 648, 676, 720, 211"
+207,Course Schedule,Medium,Topological Sort,"Build graph and in-degree/out-degree list, then do topological sort.",,"210, 802"
+684,Redundant Connection,Medium,Union Find,,,"1319, 990, 721, 685"
